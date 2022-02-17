@@ -6,7 +6,6 @@ function App() {
     return (
         <>
             <GlobalStyles />
-            <h1>working</h1>
             <Layout />
         </>
     );

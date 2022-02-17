@@ -1,14 +1,17 @@
 import React from 'react';
-import { Container, Wrapper } from './style';
+import { Container, Wrapper, Main } from './style';
 import Simulator from '../Simulator';
 
 const Layout = function () {
     return (
         <Container>
-            <Wrapper>
-                <Simulator />
-                {/* <Results/> */}
-            </Wrapper>
+            <Main>
+                <h1>Simulador de Investimentos</h1>
+                <Wrapper>
+                    <Simulator />
+                    {/* <Results/> */}
+                </Wrapper>
+            </Main>
         </Container>
     );
 };
