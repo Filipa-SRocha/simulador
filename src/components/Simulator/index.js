@@ -10,6 +10,8 @@ import {
     FormLabel,
     FormContainer,
     FormElement,
+    Button,
+    Buttons,
 } from './style';
 
 const Simulator = () => {
@@ -100,10 +102,10 @@ const Simulator = () => {
                             </FormElement>
                         </div>
                     </Wrapper>
-                    <div>
-                        <button>Limpar Campos</button>
-                        <button type="submit">Enviar</button>
-                    </div>
+                    <Buttons>
+                        <Button>Limpar Campos</Button>
+                        <Button type="submit">Simular</Button>
+                    </Buttons>
                 </FormContainer>
             </Form>
         </Container>

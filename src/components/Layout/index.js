@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Wrapper, Main } from './style';
 import Simulator from '../Simulator';
+import Results from '../Results';
 
 const Layout = function () {
     return (
@@ -9,7 +10,7 @@ const Layout = function () {
                 <h1>Simulador de Investimentos</h1>
                 <Wrapper>
                     <Simulator />
-                    {/* <Results/> */}
+                    <Results />
                 </Wrapper>
             </Main>
         </Container>
