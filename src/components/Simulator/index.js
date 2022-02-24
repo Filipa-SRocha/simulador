@@ -53,21 +53,23 @@ const Simulator = () => {
                             <p>Rendimento</p>
                             <Tabs names={['Bruto', 'Liquído']} />
                             <FormElement>
-                                <FormLabel for="aporte">
+                                <FormLabel htmlFor="aporte">
                                     Aporte inicial
                                 </FormLabel>
                                 <Input name="aporte" id="aporte" />
                             </FormElement>
 
                             <FormElement>
-                                <FormLabel for="prazo">
+                                <FormLabel htmlFor="prazo">
                                     Prazo (em meses)
                                 </FormLabel>
                                 <Input name="prazo" id="prazo" />
                             </FormElement>
 
                             <FormElement>
-                                <FormLabel for="ipca">IPCA (ao ano)</FormLabel>
+                                <FormLabel htmlFor="ipca">
+                                    IPCA (ao ano)
+                                </FormLabel>
                                 <Input name="ipca" id="ipca" />
                             </FormElement>
                         </div>
@@ -77,7 +79,7 @@ const Simulator = () => {
                             <Tabs names={['PRE', 'POS', 'FIXADO']} />
 
                             <FormElement>
-                                <FormLabel for="aporte-mensal">
+                                <FormLabel htmlFor="aporte-mensal">
                                     Aporte Mensal
                                 </FormLabel>
                                 <Input
@@ -87,7 +89,7 @@ const Simulator = () => {
                             </FormElement>
 
                             <FormElement>
-                                <FormLabel for="rentabilidade">
+                                <FormLabel htmlFor="rentabilidade">
                                     Rentabilidade
                                 </FormLabel>
                                 <Input
@@ -97,7 +99,9 @@ const Simulator = () => {
                             </FormElement>
 
                             <FormElement>
-                                <FormLabel for="cdi">CDI (ao ano)</FormLabel>
+                                <FormLabel htmlFor="cdi">
+                                    CDI (ao ano)
+                                </FormLabel>
                                 <Input name="cdi" id="cdi" />
                             </FormElement>
                         </div>

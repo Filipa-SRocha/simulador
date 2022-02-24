@@ -46,7 +46,7 @@ export const Button = styled.button`
     padding: 15px 0;
     border-radius: 10px;
     border: ${(props) =>
-        props.type == 'submit' ? '1px solid #eb8c55' : '1px solid black'};
+        props.type === 'submit' ? '1px solid #eb8c55' : '1px solid black'};
     background-color: ${(props) =>
-        props.type == 'submit' ? '#eb8c55' : 'white'};
+        props.type === 'submit' ? '#eb8c55' : 'white'};
 `;

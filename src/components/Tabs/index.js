@@ -3,6 +3,7 @@ import { Container, SingleTab } from './style';
 
 const Tabs = ({ names }) => {
     let selected = false;
+
     function handleClick(e) {
         console.log('click');
         console.log(e);
@@ -12,7 +13,7 @@ const Tabs = ({ names }) => {
         <Container>
             {names.map((element) => {
                 return (
-                    <SingleTab selected onClick={handleClick}>
+                    <SingleTab selected onClick={handleClick} key={element}>
                         <p>{element}</p>
                     </SingleTab>
                 );

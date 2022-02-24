@@ -10,7 +10,7 @@ const Layout = function () {
                 <h1>Simulador de Investimentos</h1>
                 <Wrapper>
                     <Simulator />
-                    <Results />
+                    {/* <Results /> */}
                 </Wrapper>
             </Main>
         </Container>
